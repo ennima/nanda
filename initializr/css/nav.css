@@ -77,3 +77,24 @@
     background-color: #8d2242;
   }
 }
+
+#canvas_footer{
+       padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5px;
+    display: block;
+
+}
+.footer-content{
+  background: #8D2242;
+  width: 100%;
+  
+  padding: 0px;
+  
+}
+
+.footer{
+  width: 100%;
+}

@@ -94,11 +94,45 @@ canvas{
 .footer-content{
   background: #8D2242;
   width: 100%;
-  
+  color:#fff;
   padding: 0px;
   
 }
 
 .footer{
   width: 100%;
+}
+
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: 0px;
+  }
+
+#myCarousel{
+  width: 100%;
+  padding-right: 0px;
+}
+
+#menu-vertical{
+  padding: 0px;
+  padding-left: 10px;
+
+}
+
+#contenido{
+  padding-left:0px; 
+}
+
+.btn-leer{
+  background: #9A9235;
+  color:#fff;
+  border: none;
+}
+
+.btn-leer:hover{
+  background: #0C485A;
+  color: #fff;
 }

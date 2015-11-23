@@ -915,8 +915,9 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #400919;
   text-decoration: none;
+  font-weight: bold;
 }
 a:hover,
 a:focus {
@@ -3763,7 +3764,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #0C485A;
 }
 .nav-stacked > li {
   float: none;
@@ -3834,7 +3835,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -5815,6 +5816,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  width: 100%;
 }
 .carousel-inner {
   position: relative;

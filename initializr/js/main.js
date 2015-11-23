@@ -1,13 +1,16 @@
 /*         Canvas web full     */
- function init() {
+ function init() 
+ 
+ {
 
       var canvas = document.getElementById("canvas_footer");
       var ctx = canvas.getContext("2d");
 
       draw(ctx);
-    }
+}
 
-    function draw(ctx) {
+function draw(ctx) 
+{
 
       // capa1/Rectngulo
       ctx.save();/*
@@ -843,4 +846,9 @@
       ctx.fill();
       ctx.restore();
       ctx.restore();
-    }
+}
+
+function searchArticle(article)
+{
+      window.location = "search.html";
+}

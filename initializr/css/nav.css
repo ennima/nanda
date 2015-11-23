@@ -77,6 +77,10 @@
     background-color: #8d2242;
   }
 }
+canvas{
+  width: 80%;
+  height: auto;
+}
 
 #canvas_footer{
        padding-left: 0;
